@@ -1,4 +1,4 @@
-# Pucker corrections for DFTB
+# Pucker corrections for semiempirical methods
 
 WARNING: WORK IN PROGRESS, TO BE TESTED
 

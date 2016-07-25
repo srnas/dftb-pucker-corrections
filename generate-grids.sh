@@ -96,6 +96,6 @@ BEGIN{
   }
  print " "
  }
-}' grid_points_$method.dat > ext-${method}_${name}${i}.dat
+}' grid_points_$method.dat > ext-${method}_${name}${num}.dat
 
 done

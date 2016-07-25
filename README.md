@@ -7,3 +7,7 @@ Original tables have been extracted from supporting tables S1 and S2 of that pap
 External potentials in a format that can be read by [PLUMED](http://www.plumed.org) are provided.
 
 A sample input file for PLUMED is also provided.
+
+Implementation have been made by Alejandro Gil-Ley and Vojtech Mlynsky.
+
+USE AT YOUR OWN RISK!

@@ -17,7 +17,6 @@ exit
 fi
 
 num=0
-rm -f plumed.dat
 
 method=$1
 shift
@@ -27,7 +26,7 @@ do
 
 num=$((num+1))
 
-cat >> plumed.dat << EOF
+cat  << EOF
 
 puck_${name}${num} PUCKERING ATOMS=@sugar-$num
 ext_$name$i: ...
@@ -96,6 +95,6 @@ BEGIN{
   }
  print " "
  }
-}' grid_points_$method.dat > ext-${method}_${name}${i}.dat
+}' grid_points_$method.dat > ext-${method}_${name}${num}.dat
 
 done

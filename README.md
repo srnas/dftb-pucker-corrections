@@ -1,6 +1,6 @@
-# Pucker corrections for DFTB
+# Pucker corrections for semiempirical methods
 
-This repository contains tabulated corrections for DFTB taken from the paper by [Huang et al, 2014](http://dx.doi.org/10.1021/ct401013s)
+This repository contains tabulated corrections for DFTB/DFTB2 and AM1/d-PhoT taken from the paper by [Huang et al, 2014](http://dx.doi.org/10.1021/ct401013s)
 
 Original tables have been extracted from supporting tables S1 and S2 of that paper.
 
